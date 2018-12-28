@@ -21,6 +21,9 @@ public class FXMLDocumentController implements Initializable {
     
     @FXML
     private Label label;
+    private Button botonAzul;
+    private Button botonRojo;
+    private Button botonVerde;
     
     @FXML
     private void salir(ActionEvent event) {
@@ -28,7 +31,7 @@ public class FXMLDocumentController implements Initializable {
     }
     
     @FXML
-    public void cambiarColor(){
+    private void cambiarColor(ActionEvent event){
         
     }
     
