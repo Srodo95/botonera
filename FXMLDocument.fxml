@@ -10,15 +10,15 @@
 
 <AnchorPane id="AnchorPane" prefHeight="449.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="botonera.FXMLDocumentController">
    <children>
-      <Label layoutX="231.0" layoutY="213.0" prefHeight="62.0" prefWidth="211.0" text="Hola" textAlignment="CENTER">
+      <Label fx:id="lb_text" layoutX="231.0" layoutY="213.0" prefHeight="62.0" prefWidth="211.0" text="Hola" textAlignment="CENTER">
          <font>
             <Font size="44.0" />
          </font>
       </Label>
-      <Button fx:id="botonAzul" layoutX="73.0" layoutY="121.0" mnemonicParsing="false" onAction="#cambiarColor" prefHeight="34.0" prefWidth="85.0" text="Azul" textFill="#2950da" />
-      <Button fx:id="botonRojo" layoutX="225.0" layoutY="121.0" mnemonicParsing="false" onAction="#cambiarColor" prefHeight="34.0" prefWidth="91.0" text="rojo" textFill="RED" />
-      <Button fx:id="botonVerde" layoutX="387.0" layoutY="124.0" mnemonicParsing="false" onAction="#cambiarColor" prefHeight="34.0" prefWidth="79.0" text="Verde" textFill="#08fc45" />
+      <Button layoutX="73.0" layoutY="121.0" mnemonicParsing="false" onAction="#botonAzul" prefHeight="34.0" prefWidth="85.0" text="Azul" textFill="#2950da" />
+      <Button layoutX="225.0" layoutY="121.0" mnemonicParsing="false" onAction="#botonRojo" prefHeight="34.0" prefWidth="91.0" text="rojo" textFill="RED" />
+      <Button layoutX="387.0" layoutY="124.0" mnemonicParsing="false" onAction="#botonVerde" prefHeight="34.0" prefWidth="79.0" text="Verde" textFill="#08fc45" />
       <Label layoutX="73.0" layoutY="41.0" prefHeight="65.0" prefWidth="394.0" text="Presione uno de los botones para cambiar el color del texto de abajo" />
-      <Button fx:id="botonSalir" layoutX="500.0" layoutY="390.0" mnemonicParsing="false" onAction="#salir" prefHeight="34.0" prefWidth="57.0" text="Salir" />
+      <Button layoutX="500.0" layoutY="390.0" mnemonicParsing="false" onAction="#salir" prefHeight="34.0" prefWidth="57.0" text="Salir" />
    </children>
 </AnchorPane>
